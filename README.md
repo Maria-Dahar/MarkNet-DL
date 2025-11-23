@@ -81,7 +81,7 @@ An end-to-end system for automatic marksheet field detection and text recognitio
 3. **CRNN** (CNN + RNN + CTC decoder) recognizes text in each cropped field.  
 4. Extracted text is compiled into a structured output (CSV or database).
 
-![System Architecture](images\Yolo_CRNN.png)
+![System Architecture](images/Yolo_CRNN.png)
 
 
 
@@ -179,7 +179,7 @@ crop_002.jpg, PRE-MEDICAL
 * Fast inference
 * Strong generalization to unseen marksheets
 
-![Yolo](images\Yolo.png)
+![Yolo](images/Yolo.png)
 
 ## *6.2 CRNN (CNN + BiLSTM + CTC)*
 
@@ -191,7 +191,7 @@ crop_002.jpg, PRE-MEDICAL
 
 This architecture is widely used for OCR tasks due to its reliability.
 
-![Yolo](images\MarkNetArchitecture.jpg)
+![Yolo](images/MarkNetArchitecture.jpg)
 
 ---
 
